@@ -1,0 +1,109 @@
+.panel {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 16px;
+  background: rgba(10, 10, 30, 0.85);
+  border: 1px solid rgba(100, 80, 255, 0.3);
+  border-radius: 16px;
+  min-width: 160px;
+  backdrop-filter: blur(12px);
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.sectionTitle {
+  font-family: 'Orbitron', monospace;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  color: rgba(180, 160, 255, 0.7);
+  margin: 0;
+}
+
+.scoreValue {
+  font-family: 'Orbitron', monospace;
+  font-size: 26px;
+  font-weight: 900;
+  color: #fff;
+  text-shadow: 0 0 20px rgba(180, 120, 255, 0.8);
+  letter-spacing: 0.05em;
+}
+
+.hiScore {
+  font-family: 'Orbitron', monospace;
+  font-size: 10px;
+  color: rgba(255, 200, 80, 0.8);
+  letter-spacing: 0.1em;
+}
+
+.statItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.statLabel {
+  font-family: 'Orbitron', monospace;
+  font-size: 9px;
+  color: rgba(180, 160, 255, 0.6);
+  letter-spacing: 0.1em;
+}
+
+.statValue {
+  font-family: 'Orbitron', monospace;
+  font-size: 18px;
+  font-weight: 700;
+  color: #e0d0ff;
+  text-shadow: 0 0 12px rgba(180, 120, 255, 0.6);
+}
+
+.nextContainer {
+  display: flex;
+  justify-content: center;
+  padding: 8px;
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+.controls {
+  border-top: 1px solid rgba(255, 255, 255, 0.07);
+  padding-top: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.controlsTitle {
+  font-family: 'Orbitron', monospace;
+  font-size: 9px;
+  letter-spacing: 0.15em;
+  color: rgba(180, 160, 255, 0.5);
+  margin-bottom: 4px;
+}
+
+.controlRow {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: 'Zen Maru Gothic', sans-serif;
+  font-size: 11px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.controlRow kbd {
+  font-family: 'Orbitron', monospace;
+  font-size: 9px;
+  padding: 2px 6px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 4px;
+  color: rgba(255, 255, 255, 0.7);
+  min-width: 52px;
+  text-align: center;
+}

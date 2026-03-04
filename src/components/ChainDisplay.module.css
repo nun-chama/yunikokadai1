@@ -1,0 +1,38 @@
+.chain {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  pointer-events: none;
+  z-index: 20;
+  animation: popIn 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+@keyframes popIn {
+  from { transform: translate(-50%, -50%) scale(0.3); opacity: 0; }
+  to   { transform: translate(-50%, -50%) scale(1);   opacity: 1; }
+}
+
+.num {
+  display: block;
+  font-family: 'Orbitron', monospace;
+  font-size: 72px;
+  font-weight: 900;
+  color: #fff;
+  text-shadow:
+    0 0 20px #c04bff,
+    0 0 40px #c04bff,
+    0 0 60px #c04bff;
+  line-height: 1;
+}
+
+.label {
+  display: block;
+  font-family: 'Orbitron', monospace;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.3em;
+  color: #FFD94B;
+  text-shadow: 0 0 15px #FFD94B;
+}
